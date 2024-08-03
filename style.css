@@ -79,8 +79,8 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 30px;
   padding: 5px;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background-color: rgba(95, 75, 43, 0.6);
+  backdrop-filter: blur(10px);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -453,12 +453,17 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(103,115,131);
+  background-color: #5F4B2B;
+  box-shadow: 0 0 0 10px rgba(167, 131, 74, 0.8);
   cursor: pointer;
   -webkit-transition: width 0.3s ease-in-out 0.5s,
                       border-radius 0.3s ease-in-out 0.5s;
   transition: width 0.3s ease-in-out 0.5s,
               border-radius 0.3s ease-in-out 0.5s;
+}
+
+.info-hotspot.visible .info-hotspot-header {
+  box-shadow: none;
 }
 
 .mobile .info-hotspot .info-hotspot-header {
@@ -468,6 +473,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .desktop.no-touch .info-hotspot .info-hotspot-header:hover {
+  box-shadow: none;
   width: 260px;
   border-radius: 5px;
   -webkit-transition: width 0.3s ease-in-out,
@@ -553,7 +559,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 40px;
   width: 40px;
   border-top-right-radius: 5px;
-  background-color: rgb(78,88,104);
+  background-color: #5F4B2B;
   visibility: hidden;
   -ms-transform: perspective(200px) rotateY(90deg);
   -webkit-transform: perspective(200px) rotateY(90deg);
@@ -592,6 +598,15 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   margin: 15%;
 }
 
+@keyframes growShrink {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
 .info-hotspot .info-hotspot-text {
   position: absolute;
   width: 300px;
@@ -600,7 +615,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   top: 40px;
   left: 0;
   padding: 10px;
-  background-color: rgb(58,68,84);
+  background-color: rgba(32, 24, 12, 0.7);
+  backdrop-filter: blur(10px);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   overflow-y: auto;
@@ -625,6 +641,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   -webkit-user-select: text;
   -ms-user-select: text;
   user-select: text;
+  
 }
 
 .desktop .info-hotspot.visible .info-hotspot-text {
@@ -792,6 +809,25 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 body.view-control-buttons .viewControlButton {
   display: block;
+}
+
+#autorotateToggle,
+#fullscreenToggle,
+#sceneListToggle {
+  background-color: #5F4B2B;
+}
+
+#sceneList .scenes {
+  background-color: rgba(95, 75, 43, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+#sceneList .scene.current {
+  background-color: #5F4B2B;
+}
+
+.no-touch #sceneList .scene:hover {
+  background-color: #5F4B2B;
 }
 
 /* Hide controls when width is too small */
