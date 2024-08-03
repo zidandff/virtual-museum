@@ -37,7 +37,7 @@ var APP_DATA = {
           "yaw": 1.1294766158645189,
           "pitch": 0.3566347731928641,
           "title": "Batuan Koral",
-          "text": "Lorem Ipsum"
+          "text": "Terumbu karang dan batugamping yang terangkat menjadi daratan akan mengalami pelapukan dan erosi kikis yang disebut sebagai proses karstifikasi. Di bagian permukaan, proses tersebut menghasilkan berbagai bentukan yang disebut sebagai eksokars. Melalui rekahan yang ada, air melarutkan tubuh batuan tersebut menghasilkan berbagai bentuk rongga-rongga serta mengendapkan larutannya menghasilkan berbagai bentuk ornamen yang disebut sebagai endokars. Kawasan kars mempunyai karakteristik tersendiri, tergantung pada faktor-faktor yang mempengaruhi curah hujan dan iklim, jenis dam sifat batugamping, struktur geologi, lamanya waktu proses berlangsung, porositas batuan atau kemampuan batuan menerap air, kerapatan vegetasi penutup dan tebal tipisnya lapisan tanah. Di Indonesia banyak fenomena kars yang terbentuk akibat fakto-faktor tersebut. Beberapa contoh kawasan kars di Indonesia adalah kawasan Maros-Pangkep, Rajamandala, Gunung Sewu, Kars Gombong, dan lain-lain."
         }
       ]
     },
@@ -133,7 +133,7 @@ var APP_DATA = {
           "yaw": 0.5806677857149047,
           "pitch": -0.35432930057312184,
           "title": "Museum Geologi Bandung",
-          "text": "Didirikan pada"
+          "text": "Museum Geologi terletak di Jalan Diponegoro 57, Bandung. Lokasi museum terletak di pusat Kota Bandung, kurang lebih 200 meter di sebelah timur gedung Pemerintahan Provinsi Jawa Barat, Gedung Sate. Museum Geologi berperan sebagai pusat peragaan berbagai data dan informasi kebumian, meliputi sejarah kehidupan di muka bumi, keadaan geologi Indonesia, dan manfaat geologi untuk kehidupan manusia. Secara kelembagaan, Museum Geologi sejak 2017 berada di bawah Sekretariat Badan Geologi, Badan Geologi, Kementerian Energi dan Sumber Daya Mineral."
         }
       ]
     }
